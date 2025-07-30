@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field, computed_field, field_validator
 from typing import Literal, Annotated
-from config import tier_1_cities, tier_2_cities
+from config.city_tier import tier_1_cities, tier_2_cities
 
 #pydantic model for input data
 class UserInput(BaseModel):
