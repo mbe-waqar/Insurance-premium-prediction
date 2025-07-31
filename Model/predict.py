@@ -6,7 +6,7 @@ with open("Model\model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # MLflow
-model_version = "v1.0.0"  # Example version
+model_version = "v1.0.0"  # Example version,
 
 # Get class labels from model (important for matching probabilities to class names)
 class_labels = model.classes_.tolist()
