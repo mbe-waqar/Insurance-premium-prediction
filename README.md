@@ -1,4 +1,4 @@
-# Insurance Premium Prediction API
+# Insurance-Premium-Prediction API
 
 A machine learning-powered REST API that predicts insurance premiums based on customer demographics and lifestyle factors. Built with FastAPI for high performance and automatic API documentation.
 
